@@ -57,11 +57,6 @@ manager.add_student(Student(101, "Ravi", 85))
 manager.add_student(Student(102, "Priya", 92))
 manager.add_student(Student(103, "Arun", 78))
 
-print("\n--- Testing Validation ---")
-manager.add_student(Student(104, "Kiran", 150))
-manager.add_student(Student(101, "Duplicate", 80))
-manager.add_student(Student(105, "", 75))
-
 print("\n--- All Student Records ---")
 manager.display_students()
 
